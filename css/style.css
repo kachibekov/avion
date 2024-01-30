@@ -119,3 +119,68 @@ body {
     display: none;
   }
 }
+
+.brand__content {
+  margin: 0 auto;
+}
+
+.brand__toothpaste {
+  margin: 20px 0 20px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+@media screen and (max-width: 1170px) {
+  .brand__toothpaste {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .brand__toothpaste {
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    gap: 25px;
+    margin: 0 0 0 100px;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+.brand__different {
+  font-family: "Clash Display";
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin: 120px 0 50px 0;
+}
+
+.brand__next {
+  max-width: 270px;
+  height: 124px;
+  border: 1px solid black;
+}
+
+.img__delivery {
+  margin: 0 0 16px 5px;
+}
+
+.brand__button {
+  display: flex;
+  justify-content: flex-start;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.brand__text {
+  max-width: 270px;
+  height: 48px;
+  margin: 12px 0 0 5px;
+}
