@@ -60,6 +60,7 @@ body {
 .hero__title {
   display: flex;
   border: 1px solid black;
+  border: none;
   max-width: 1440px;
   height: 584px;
   margin: 62px 50px;
@@ -165,6 +166,7 @@ body {
   max-width: 270px;
   height: 124px;
   border: 1px solid black;
+  border: none;
 }
 
 .img__delivery {
@@ -183,4 +185,78 @@ body {
   max-width: 270px;
   height: 48px;
   margin: 12px 0 0 5px;
+}
+
+
+
+
+.ceramics__new{
+  color: #2A254B;
+  font-size: 32px;
+  margin: 166px 0 0 88px;
+}
+
+
+.ceramics__pisture {
+  display: flex;
+  max-width: 1280px;
+  height: 462px;
+  border: 1px solid black;
+  border: none;
+  margin: 33px 0 20px 90px;
+  gap: 20px;
+}
+
+@media screen and (max-width:1000px){
+   .ceramics__pisture{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0 ;
+      margin: 0 ;
+      padding: 0 ;
+      list-style: none;
+   }
+}
+
+
+@media screen and (max-width:500px){
+    .ceramics__pisture{
+      display: grid;
+      grid-template-columns: repeat(1,4fr);
+      margin: 0 0 0 90px;
+    } 
+}
+
+
+.ceramics__dandy {
+  max-width: 305px;
+  height: 462px;
+  border: 1px solid black;
+  border: none;
+}
+
+.ceramics__image {
+  margin: 0 auto;
+}
+
+.ceramics__img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.ceramics__seed {
+  margin: 24px 0 0 0;
+}
+
+.ceramics__button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  max-width: 160px;
+  height: 28px;
+}
+
+.ceramics__h4 {
+  font-size: 18px;
+  margin: 5px 0 0 5px;
 }
